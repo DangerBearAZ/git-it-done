@@ -17,8 +17,6 @@
     <p>Search for a GitHub user or click on a language to see a list of repositories and how many open issues they have!
     </p>
   </header>
-
-
   <main class="flex-row justify-space-between">
     <div class="col-12 col-md-4">
       <div class="card">
@@ -31,7 +29,10 @@
       </div>
     </div>
 
-    <div class="col-12 col-md-8"> </div>
+    <div class="col-12 col-md-8">
+      <h2 class="subtitle">Showing Repositories for: <span id="repo-serch-term"></span></h2>
+      <div id="repos-container" class="list-group"></div>
+    </div>
 
   </main>
 <script src= "assets/css/homepage.js"></script>
